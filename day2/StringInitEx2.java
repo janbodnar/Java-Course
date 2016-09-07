@@ -1,5 +1,7 @@
 package com.zetcode;
 
+import java.nio.charset.Charset;
+
 public class StringInitEx2 {
 
     public static void main(String[] args) {
@@ -22,5 +24,9 @@ public class StringInitEx2 {
         
         System.out.println(sb1);
         System.out.println(sb2);
+        
+        byte[] bytes = new byte[] { 74, 85, 91, 97, 102, 121 }; 
+        String str = new String(bytes,  Charset.forName("utf-8"));
+        System.out.println(str);
     }
 }
