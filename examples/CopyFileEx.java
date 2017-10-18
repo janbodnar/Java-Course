@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
-public class JavaCopyFileEx {
+public class CopyFileEx {
 
     public static void main(String[] args) throws IOException {
 
